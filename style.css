@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,500&family=Ubuntu:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c5d8ff;
+}
+
+main {
+    margin: 0 10px;
+}
+
+#forms {
+    margin: 20px;
+} 
+
+.centerit {
+    align-items: center;
+}
+
+.flex {
+    display : flex;
+}
+
+.navbar {
+    display : flex;
+    margin-left: 15px;
+    height: 50px;
+    width : 100vw;
+}
+
+.top {
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+.navbar li {
+    
+    margin: 8px 15px;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color : white;
+}
+
+ uline:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  uline:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.hrow {
+    border: 2px solid white;
+}
+
+.bgdark {
+    background-color:#6c63ff;
+}
+
+.daksh {
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 55vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+#h1 {
+    float : Right;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+/* 
+#animate {
+    color : transparent;
+    -webkit-text-stroke: 1px #2f2e41;
+    background: url(images/jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: bg 20s linear infinite;
+}
+
+@keyframes bg{
+    100% {
+        background-position: 2000px 0;
+    }
+} */
+
+.inmain {
+    min-height: 175vh;
+    background-color: transparent;
+    background-image: url(undraw_profile_data_re_v81r.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.p1 {
+    width : 100%;
+    font-size: 1.1em;
+    align-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #2922b0;
+}
+
+#p2 {
+    width: 30%;
+    font-size: 1.1em;
+    font-family: 'Roboto Mono', monospace;
+    color: #2f2e41;
+}
+
+.topleft {
+    margin: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: ; */
+    color: #2f2e41 ;
+}
+
+
+#logo {
+    display: inline-block;
+    width : 20vw;
+}
+
+#quote {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#boldroboto {
+    margin-left: 240px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+}
+
+#part2 {
+    margin-left: 8vw;;
+    width : 40vw;
+    height : 60vh;
+    border: 2px solid #2922b0;
+    border-radius:10px;
+}
+
+#feedh {
+    margin-left: 9vh;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color : #2922b0;
+}
+
+#table1 {
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color : #2f2e41;
+    /* margin-left: vw; */
+    text-align: center;
+}
+
+.data1 {
+    font-size: 0.9em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color : #6c63ff;
+}
+
+#subbtn {
+    margin-left: 190px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 5px solid #c5d8ff;
+    background-color: #6c63ff;
+    color : white;
+    padding: 8px;
+}
+
+.p2 {
+    margin: 100px 20px 20px 20px;
+    font-size: 1.1em;
+    align-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #6c63ff;
+}
+
+
+/*  */
+/*  */
+/*  */
+
+.foot {
+    height: 50vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footh {
+    font-size: 1.1em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color : white;
+
+}
+
+.difficons {
+    text-align: center;
+}
+
+.ico {
+    display : inline-block;
+    margin: 10px 20px;
+    width : 50px;
+    color : white;
+}
+
+.i1 {
+    align-content: center;
+    display : inline-block;
+}
+input,textarea {
+    margin: 2px;
+    /* width: 30vw; */
+    border: 2px solid #6c63ff;
+    border-radius: 5px;
+}
+
+#lightborder {
+    border: 3px solid #c5d8ff;
+    border-radius: 5px;
+}
+
+  input::placeholder {
+    color: #ccc;
+  }
+
+  .ico:hover {
+      transform: scale(1.2,1.2);
+  }
+
+  .uline:hover , .subbtn:hover{
+      border-bottom: 2px solid white;
+      transform: scale(1.2,1.2);
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+  } 
